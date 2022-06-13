@@ -6,3 +6,6 @@ on the same topic.
 Analyses the discrepancies and similarities of the
 articles as well as the sentiments to determine how
 reliable an article may be.
+
+The article will also be passed through a fake news
+detector model.
