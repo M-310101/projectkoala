@@ -237,7 +237,7 @@ def gather_content(url):
 # testing purposes
 def get_article_list():
     article_list = []
-    e = Path(__file__).parent / "articles-read"
+    e = Path(__file__).parent / "articles-read/true"
     for article in os.listdir(e):
         article_loc = e / article
         with open(article_loc) as f:
@@ -249,7 +249,7 @@ def get_article_list():
 # testing purposes
 def get_fake_article_list():
     article_list = []
-    e = Path(__file__).parent / "fake-articles-read"
+    e = Path(__file__).parent / "articles-read/fake"
     for article in os.listdir(e):
         article_loc = e / article
         with open(article_loc) as f:

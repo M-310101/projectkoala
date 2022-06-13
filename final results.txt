@@ -1,0 +1,360 @@
+IS ISIS IN DANGER OF BEING WIPED OUT BY A FLESH EATING VIRUS?
+Article did not pass fake news model
+Retreived 9 URLs
+Found 7 comparable articles
+Found articles on same topic did not share a high similarity
+Average sentiment difference score: 0.017857142857142856
+Article is slightly negative
+Neutraility: True
+Mapped sentiment matching score: 98.21428571428571
+Mapped fact set matching score: 47.931673586813325
+Time taken: 28.61275839099835
+
+ Donald Trump Sends Out Embarrassing New Year’s Eve Message
+Article did not pass fake news model
+Retreived 10 URLs
+Found 9 comparable articles
+Found articles on same topic did not share a high similarity
+Average sentiment difference score: 0.1111111111111111
+Article is largely neutral
+Neutraility: False
+Mapped sentiment matching score: 88.88888888888889
+Mapped fact set matching score: 62.009686046059315
+Time taken: 57.307843103997584
+
+Trump Says Go Back, We Say Fight Back
+Article did not pass fake news model
+Retreived 8 URLs
+Found 8 comparable articles
+Found articles on same topic did not share a high similarity
+Average sentiment difference score: 0.125
+Article is slightly negative
+Neutraility: False
+Mapped sentiment matching score: 87.5
+Mapped fact set matching score: 65.78823961895095
+Time taken: 61.78470595499675
+
+WE WILL NOT COMPLY! VA Residents Refuse To Obey Leftist Governor’s Ban On Confederate Flag License Plates
+Article did not pass fake news model
+Retreived 10 URLs
+Found 8 comparable articles
+Found articles on same topic did not share a high similarity
+Average sentiment difference score: 0.09375
+Article is slightly negative
+Neutraility: True
+Mapped sentiment matching score: 90.625
+Mapped fact set matching score: 66.98158393981619
+Time taken: 39.89623113500056
+
+THE BRUTAL TRUTH About The Mooching Bum Who Wanted To Be Your Next President…And Tax You To Death
+Article did not pass fake news model
+Retreived 10 URLs
+Found 10 comparable articles
+Found articles on same topic did not share a high similarity
+Average sentiment difference score: 0.1125
+Article is slightly negative
+Neutraility: False
+Mapped sentiment matching score: 88.75
+Mapped fact set matching score: 70.42711397453395
+Time taken: 182.81648592800047
+
+The B'nai Brith and the History of the Mounting Assault on Academic Freedom in Canadian Universities
+Article did not pass fake news model
+Retreived 9 URLs
+Found 6 comparable articles
+Found articles on same topic did not share a high similarity
+Average sentiment difference score: 0.1875
+Article is slightly negative
+Neutraility: False
+Mapped sentiment matching score: 81.25
+Mapped fact set matching score: 46.52010829768985
+Time taken: 49.31149795300007
+
+Cranberry Juice Does Not Prevent Urinary Tract Infection, New Study Finds
+Article did not pass fake news model
+Retreived 4 URLs
+Found 4 comparable articles
+Found articles on same topic did not share a high similarity
+Average sentiment difference score: 0.09375
+Article is slightly positive
+Neutraility: False
+Mapped sentiment matching score: 90.625
+Mapped fact set matching score: 61.30999371120525
+Time taken: 22.066720290000376
+
+Our Landfill Economy: Want to make a quick profit along a tropical sea coast? Dig some big holes near the coast, dump in baby prawns, food and chemicals to suppress algae blooms and diseases and then harvest the prawns to ship to the insatiable markets of the developed world.
+Article did not pass fake news model
+Retreived 7 URLs
+Found 6 comparable articles
+Found articles on same topic did not share a high similarity
+Average sentiment difference score: 0.125
+Article is largely neutral
+Neutraility: False
+Mapped sentiment matching score: 87.5
+Mapped fact set matching score: 72.79557428898393
+Time taken: 42.11059398499856
+
+Pitched Battle Inside the FBI
+Article did not pass fake news model
+Retreived 10 URLs
+Found 10 comparable articles
+Found articles on same topic did not share a high similarity
+Average sentiment difference score: 0.1375
+Article is slightly negative
+Neutraility: True
+Mapped sentiment matching score: 86.25
+Mapped fact set matching score: 64.84342867373914
+Time taken: 113.98445246900155
+
+Obama, Clinton and Putin Play on the Same Team-America Has Been Betrayed
+Article did not pass fake news model
+Retreived 9 URLs
+Found 8 comparable articles
+Found articles on same topic did not share a high similarity
+Average sentiment difference score: 0.125
+Article is largely neutral
+Neutraility: False
+Mapped sentiment matching score: 87.5
+Mapped fact set matching score: 54.194297872559495
+Time taken: 122.69723765199888
+
+Genetically Engineered Mosquitoes Deployed to Destroy Zika
+Article did not pass fake news model
+Retreived 9 URLs
+Found 8 comparable articles
+Found articles on same topic did not share a high similarity
+Average sentiment difference score: 0.109375
+Article is slightly negative
+Neutraility: True
+Mapped sentiment matching score: 89.0625
+Mapped fact set matching score: 54.92842619314624
+Time taken: 27.298119798000698
+
+BRONX HOSPITAL SHOOTING: Multiple People Shot, Staff ‘Sheltered in Place’ Amid Backdrop of Active Shooter Drills
+Article did not pass fake news model
+Retreived 9 URLs
+Found 8 comparable articles
+Found articles on same topic did not share a high similarity
+Average sentiment difference score: 0.03125
+Article is slightly negative
+Neutraility: False
+Mapped sentiment matching score: 96.875
+Mapped fact set matching score: 60.81859766581106
+Time taken: 71.66446546200314
+
+Secret cameras have been warrantlessly recording an entire city’s every move from above
+Article did not pass fake news model
+Retreived 9 URLs
+Found 8 comparable articles
+Found articles on same topic did not share a high similarity
+Average sentiment difference score: 0.046875
+Article is slightly positive
+Neutraility: True
+Mapped sentiment matching score: 95.3125
+Mapped fact set matching score: 64.88577132056861
+Time taken: 43.931490954000765
+
+ WATCH: Fox Host Calls For A ‘Cleansing’ Of The FBI, And To Arrest Everyone Investigating Trump
+Article did not pass fake news model
+Retreived 7 URLs
+Found 4 comparable articles
+Found articles on same topic did not share a high similarity
+Average sentiment difference score: 0.03125
+Article is slightly negative
+Neutraility: True
+Mapped sentiment matching score: 96.875
+Mapped fact set matching score: 64.17667124986554
+Time taken: 42.37588634999702
+
+Vladimir The Great: Russia’s Refurbished Empire
+Article did not pass fake news model
+Retreived 8 URLs
+Found 7 comparable articles
+Found articles on same topic did not share a high similarity
+Average sentiment difference score: 0.10714285714285714
+Article is largely neutral
+Neutraility: True
+Mapped sentiment matching score: 89.28571428571429
+Mapped fact set matching score: 51.066775533291796
+Time taken: 45.276182100998994
+
+AIR FORCE WILL EASE POLICY ON DISCHARGING TRANSGENDERS
+Article did not pass fake news model
+Retreived 10 URLs
+Found 8 comparable articles
+Found articles on same topic did not share a high similarity
+Average sentiment difference score: 0.015625
+Article is slightly positive
+Neutraility: True
+Mapped sentiment matching score: 98.4375
+Mapped fact set matching score: 61.17632329015767
+Time taken: 70.66058023500227
+
+BOOM! Black Activist Calls Black CA State Senator “Racist” For Supporting Mass Immigration: “A real man is Donald Trump”
+Article did not pass fake news model
+Retreived 10 URLs
+Found 7 comparable articles
+Found articles on same topic did not share a high similarity
+Average sentiment difference score: 0.14285714285714285
+Article is slightly positive
+Neutraility: False
+Mapped sentiment matching score: 85.71428571428572
+Mapped fact set matching score: 64.44188761528515
+Time taken: 189.11575609099964
+
+Washington War Party Urges Obama to Go to War Against Assad & the Russians - Christoph Germann
+Article did not pass fake news model
+Retreived 7 URLs
+Found 7 comparable articles
+Found articles on same topic shared a high similarity
+Average sentiment difference score: 0.07142857142857142
+Article is slightly negative
+Neutraility: False
+Mapped sentiment matching score: 92.85714285714286
+Mapped fact set matching score: 55.266422451594124
+Time taken: 62.2978823759986
+
+ Federal Lawsuit Filed Against Trump Over Financial Disclosure (DETAILS)
+Article did not pass fake news model
+Retreived 10 URLs
+Found 9 comparable articles
+Found articles on same topic did not share a high similarity
+Average sentiment difference score: 0.041666666666666664
+Article is slightly negative
+Neutraility: True
+Mapped sentiment matching score: 95.83333333333334
+Mapped fact set matching score: 62.967449040406386
+Time taken: 85.72404142199957
+
+Thanksgiving Wishes and JJ’s Stuffing Recipe
+Article did not pass fake news model
+Retreived 6 URLs
+Found 6 comparable articles
+Found articles on same topic did not share a high similarity
+Average sentiment difference score: 0.08333333333333333
+Article is slightly positive
+Neutraility: False
+Mapped sentiment matching score: 91.66666666666666
+Mapped fact set matching score: 73.7504423304058
+Time taken: 38.577490319999924
+
+What it’s really like to be in the middle of the battle for Aleppo
+Article did not pass fake news model
+Retreived 9 URLs
+Found 9 comparable articles
+Found articles on same topic did not share a high similarity
+Average sentiment difference score: 0.05555555555555555
+Article is slightly negative
+Neutraility: True
+Mapped sentiment matching score: 94.44444444444444
+Mapped fact set matching score: 63.437801095455896
+Time taken: 38.60854418400049
+
+U.S. APOLOGIZES FOR HUMAN RIGHTS VIOLATIONS AT U.N. REVIEW TO COUNTRIES WITH WORSE HUMAN RIGHTS VIOLATIONS
+Article did not pass fake news model
+Retreived 9 URLs
+Found 7 comparable articles
+Found articles on same topic did not share a high similarity
+Average sentiment difference score: 0.10714285714285714
+Article is largely neutral
+Neutraility: False
+Mapped sentiment matching score: 89.28571428571429
+Mapped fact set matching score: 54.165551085604854
+Time taken: 73.81150534400149
+
+Comment on Unprecedented letter from Chair of Joint Chiefs suggests U.S. military does not want a President Hillary by joworth
+Article did not pass fake news model
+Retreived 8 URLs
+Found 7 comparable articles
+Found articles on same topic did not share a high similarity
+Average sentiment difference score: 0.03571428571428571
+Article is slightly positive
+Neutraility: False
+Mapped sentiment matching score: 96.42857142857143
+Mapped fact set matching score: 48.743004221782726
+Time taken: 89.34139664800023
+
+Hollow Earth, Flying Shields and Ant-like Gods — History of the Ancient Hopi
+Article did not pass fake news model
+Retreived 7 URLs
+Found 7 comparable articles
+Found articles on same topic did not share a high similarity
+Average sentiment difference score: 0.0
+Article is slightly positive
+Neutraility: True
+Mapped sentiment matching score: 100.0
+Mapped fact set matching score: 67.44518655894461
+Time taken: 45.27280880800026
+
+Leaked Emails Just Exposed Clear Republican Voter Suppression In North Carolina
+Article passes fake news model
+Retreived 7 URLs
+Found 6 comparable articles
+Found articles on same topic did not share a high similarity
+Average sentiment difference score: 0.041666666666666664
+Article is largely neutral
+Neutraility: True
+Mapped sentiment matching score: 95.83333333333334
+Mapped fact set matching score: 70.43401838264846
+Time taken: 90.72402709000016
+
+CHILLING: How America Looks After 8 Long Years With An Anti-American President
+Article did not pass fake news model
+Retreived 6 URLs
+Found 6 comparable articles
+Found articles on same topic did not share a high similarity
+Average sentiment difference score: 0.10416666666666667
+Article is slightly negative
+Neutraility: False
+Mapped sentiment matching score: 89.58333333333334
+Mapped fact set matching score: 48.59665457725146
+Time taken: 34.676351692000026
+
+A Turn In The Tide, Plus A Remarkable Look At Kennedy And Lincoln Assassinations
+Article passes fake news model
+Retreived 8 URLs
+Found 6 comparable articles
+Found articles on same topic did not share a high similarity
+Average sentiment difference score: 0.14583333333333334
+Article is slightly negative
+Neutraility: True
+Mapped sentiment matching score: 85.41666666666666
+Mapped fact set matching score: 70.44582040504444
+Time taken: 40.25733493399821
+
+‘We Are Losing Control of the Streets’ Merkel’s Germany Descends into Lawlessness
+Article did not pass fake news model
+Retreived 9 URLs
+Found 8 comparable articles
+Found articles on same topic did not share a high similarity
+Average sentiment difference score: 0.046875
+Article is slightly negative
+Neutraility: False
+Mapped sentiment matching score: 95.3125
+Mapped fact set matching score: 87.99341098610904
+Time taken: 38.28471328700107
+
+The Devaluation of Higher Education
+Article passes fake news model
+Retreived 10 URLs
+Found 9 comparable articles
+Found articles on same topic did not share a high similarity
+Average sentiment difference score: 0.041666666666666664
+Article is slightly positive
+Neutraility: True
+Mapped sentiment matching score: 95.83333333333334
+Mapped fact set matching score: 54.968946596490916
+Time taken: 30.672410534996743
+
+Jeff Gundlach’s Warning And Danger For Key Global Markets
+Article did not pass fake news model
+Retreived 9 URLs
+Found 9 comparable articles
+Found articles on same topic did not share a high similarity
+Average sentiment difference score: 0.09722222222222222
+Article is largely neutral
+Neutraility: True
+Mapped sentiment matching score: 90.27777777777779
+Mapped fact set matching score: 66.83617469250548
+Time taken: 28.18854386199746
+

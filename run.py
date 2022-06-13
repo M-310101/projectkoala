@@ -1,11 +1,11 @@
-import articlelib, os, time
+import artlib, os, time
 from pathlib import Path
 
 def test(article_in):
     writeup = Path(__file__).parent / "final results.txt"
     f = open(writeup, 'a')
     tic = time.perf_counter()
-    title, text = articlelib.get_article_text(article_in[1])
+    title, text = artlib.get_article_text(article_in[1])
     f.write(article_in[0])
     f.write('\n')
     if (title == None or text == None):
@@ -20,11 +20,11 @@ def test(article_in):
         return
 
     # process text and get stemmed version
-    model_text = articlelib.text_preprocess_stem(text)
+    model_text = artlib.text_preprocess_stem(text)
 
     # use our fake news model to predict whether the article is fake news or not
     # 1 for fake news, 0 for real news
-    reliability_model_score = articlelib.fn_model.predict([model_text])[0]
+    reliability_model_score = artlib.fn_model.predict([model_text])[0]
     if (reliability_model_score == 0):
         f.write('Article passes fake news model')
         f.write('\n')
@@ -38,12 +38,12 @@ def test(article_in):
     # else:
     #     print("Article did not pass the article reliability model, comparing against online resources\n")
 
-    comp_text = articlelib.nlp(articlelib.text_preprocess_lem(text))
+    comp_text = artlib.nlp(artlib.text_preprocess_lem(text))
     text_ents = [x.text for x in comp_text.ents]
     set_len = len(text_ents)
 
     # get sentiment for inputted article
-    sentiment = articlelib.text_sentiment(text)
+    sentiment = artlib.text_sentiment(text)
 
     found_articles = {
         'lem_text':[],
@@ -59,7 +59,7 @@ def test(article_in):
     '''Get sites from single article checker'''
 
     # get a list of url's based off a query search on google
-    gathered_sites = articlelib.gather_sites(title)
+    gathered_sites = artlib.gather_sites(title)
     num_of_compares = sum_sim = 0
     str_out = 'Retreived ' + str(len(gathered_sites)) + ' URLs'
     f.write(str_out)
@@ -67,15 +67,15 @@ def test(article_in):
 
     # get the text from each site and compare similarity score
     for site in gathered_sites:
-        found_text = articlelib.gather_content(site)
+        found_text = artlib.gather_content(site)
 
         # if the response from getting content from url is not text, skip
         if (type(found_text) != str):
             continue
-        found_comp_lem = articlelib.text_preprocess_lem(found_text)
+        found_comp_lem = artlib.text_preprocess_lem(found_text)
         if (found_comp_lem == None):
             continue
-        found_comp_text = articlelib.nlp(articlelib.text_preprocess_lem(found_text))
+        found_comp_text = artlib.nlp(artlib.text_preprocess_lem(found_text))
         sim_score = comp_text.similarity(found_comp_text)
         # if (sim_score >= 0.97):
 
@@ -88,7 +88,7 @@ def test(article_in):
 
         # fill dictionary with entry information
         found_articles['lem_text'].append(found_comp_text)
-        found_sentiment = articlelib.text_sentiment(found_text)
+        found_sentiment = artlib.text_sentiment(found_text)
         found_articles['sent_pos'].append(found_sentiment['pos'])
         found_articles['sent_neu'].append(found_sentiment['neu'])
         found_articles['sent_neg'].append(found_sentiment['neg'])
@@ -138,12 +138,12 @@ def test(article_in):
 
 
     # get bucket value
-    bucket_val, sent_str, degree_str = articlelib.get_bucket((sentiment['pos'] - sentiment['neg']))
+    bucket_val, sent_str, degree_str = artlib.get_bucket((sentiment['pos'] - sentiment['neg']))
     
     # calculate average sentiment difference score between other articles
     total_diff_score = 0
     for i in range(num_of_compares):
-        comp_bucket_val, *_ = articlelib.get_bucket((found_articles['sent_pos'][i] - found_articles['sent_neg'][i]))
+        comp_bucket_val, *_ = artlib.get_bucket((found_articles['sent_pos'][i] - found_articles['sent_neg'][i]))
 
         # get the score as a value between 0 - 1
         total_diff_score += (abs(bucket_val - comp_bucket_val) / 8)
@@ -153,7 +153,7 @@ def test(article_in):
     f.write(str_out)
     f.write('\n')
     # calculate as a score between 0 to 100
-    mapped_sentiment_score = articlelib.map_sent_score(avr_diff_score, 100)
+    mapped_sentiment_score = artlib.map_sent_score(avr_diff_score, 100)
 
 
     # compare fact set from each
@@ -172,7 +172,7 @@ def test(article_in):
     str_out = 'Average fact match score: ' + str(set_score)
 
     # transpose score to number between 0 and 100
-    mapped_set_score = articlelib.map_set_score(set_score, 100)
+    mapped_set_score = artlib.map_set_score(set_score, 100)
 
 
     str_out = 'Article is ' + degree_str + ' ' + sent_str
@@ -216,18 +216,18 @@ def main():
 
     # url = 'https://www.irishtimes.com/business/economy/world/jp-morgan-in-record-13-billion-settlement-with-us-authorities-1.1601097'
     # print(url)
-    # james = articlelib.gather_content(url)
+    # james = artlib.gather_content(url)
     # if (james != None):
     #     print(james)
 
-    # # sentiment = articlelib.text_sentiment(james)
+    # # sentiment = artlib.text_sentiment(james)
     # # print(sentiment)
     # # print(type(sentiment))
-    # old = articlelib.text_preprocess_stem(article)
+    # old = artlib.text_preprocess_stem(article)
     # print(old)
     # print('\n\n\n')
 
-    # new = articlelib.text_preprocess_lem(article)
+    # new = artlib.text_preprocess_lem(article)
     # print(new)
 
 
@@ -241,29 +241,29 @@ def main():
     '''Populate variables with article data'''
     # # load in article
     # loc = Path(__file__).parent / "article.txt"
-    # title, text = articlelib.get_article_text(loc)
+    # title, text = artlib.get_article_text(loc)
     # if (title == None or text == None):
     #     print("Article does not meet word count minimum.")
     #     return
 
     # # process text and get stemmed version
-    # model_text = articlelib.text_preprocess_stem(text)
+    # model_text = artlib.text_preprocess_stem(text)
 
     # # use our fake news model to predict whether the article is fake news or not
     # # 1 for fake news, 0 for real news
-    # reliability_model_score = articlelib.fn_model.predict([model_text])[0]
+    # reliability_model_score = artlib.fn_model.predict([model_text])[0]
     # if (reliability_model_score == 0):
     #     print("Based on a dataset of over 65,000 articles, this article is predicted to be reliable.")
     #     # return
     # else:
     #     print("Article did not pass the article reliability model, comparing against online resources\n")
 
-    # comp_text = articlelib.nlp(articlelib.text_preprocess_lem(text))
+    # comp_text = artlib.nlp(artlib.text_preprocess_lem(text))
     # text_ents = [x.text for x in comp_text.ents]
     # set_len = len(text_ents)
 
     # # get sentiment for inputted article
-    # sentiment = articlelib.text_sentiment(text)
+    # sentiment = artlib.text_sentiment(text)
 
     # found_articles = {
     #      'lem_text':[],
@@ -279,17 +279,17 @@ def main():
     # '''Get sites from single article checker'''
 
     # # get a list of url's based off a query search on google
-    # gathered_sites = articlelib.gather_sites(title)
+    # gathered_sites = artlib.gather_sites(title)
     # num_of_compares = sum_sim = 0
 
     # # get the text from each site and compare similarity score
     # for site in gathered_sites:
-    #     found_text = articlelib.gather_content(site)
+    #     found_text = artlib.gather_content(site)
 
     #     # if the response from getting content from url is not text, skip
     #     if (type(found_text) != str):
     #         continue
-    #     found_comp_text = articlelib.nlp(articlelib.text_preprocess_lem(found_text))
+    #     found_comp_text = artlib.nlp(artlib.text_preprocess_lem(found_text))
     #     sim_score = comp_text.similarity(found_comp_text)
 
     #     # check similarity score, skip article if below 0.5
@@ -301,7 +301,7 @@ def main():
 
     #     # fill dictionary with entry information
     #     found_articles['lem_text'].append(found_comp_text)
-    #     found_sentiment = articlelib.text_sentiment(found_text)
+    #     found_sentiment = artlib.text_sentiment(found_text)
     #     found_articles['sent_pos'].append(found_sentiment['pos'])
     #     found_articles['sent_neu'].append(found_sentiment['neu'])
     #     found_articles['sent_neg'].append(found_sentiment['neg'])
@@ -334,19 +334,19 @@ def main():
 
 
     # # get bucket value
-    # bucket_val, sent_str, degree_str = articlelib.get_bucket((sentiment['pos'] - sentiment['neg']))
+    # bucket_val, sent_str, degree_str = artlib.get_bucket((sentiment['pos'] - sentiment['neg']))
     
     # # calculate average sentiment difference score between other articles
     # total_diff_score = 0
     # for i in range(num_of_compares):
-    #     comp_bucket_val, *_ = articlelib.get_bucket((found_articles['sent_pos'][i] - found_articles['sent_neg'][i]))
+    #     comp_bucket_val, *_ = artlib.get_bucket((found_articles['sent_pos'][i] - found_articles['sent_neg'][i]))
 
     #     # get the score as a value between 0 - 1
     #     total_diff_score += (abs(bucket_val - comp_bucket_val) / 8)
 
     # avr_diff_score = total_diff_score/num_of_compares
     # # calculate as a score between 0 to 100
-    # mapped_sent_score = articlelib.map_sent_score(avr_diff_score, 100)
+    # mapped_sent_score = artlib.map_sent_score(avr_diff_score, 100)
 
 
     # # compare fact set from each
@@ -361,7 +361,7 @@ def main():
     # set_score = total_set_score/num_of_compares
 
     # # transpose score to number between 0 and 100
-    # mapped_set_score = articlelib.map_set_score(set_score, 100)
+    # mapped_set_score = artlib.map_set_score(set_score, 100)
 
 
 
@@ -386,10 +386,10 @@ def main():
 
 
     '''run for all test articles'''
-    # article_list = articlelib.get_article_list()
+    # article_list = artlib.get_article_list()
     # for i in range(0, len(article_list)):
     #     test(article_list[i])
-    article_list = articlelib.get_fake_article_list()
+    article_list = artlib.get_fake_article_list()
     for i in range(0, len(article_list)):
         test(article_list[i])
 
@@ -397,22 +397,22 @@ def main():
     #     # reset similarity scores
     #     num_of_found = sum_score = 0
     #     # get article n
-    #     title, text = articlelib.get_article_text(article_list[i][1])
+    #     title, text = artlib.get_article_text(article_list[i][1])
     #     if (title == None or text == None):
     #         continue
 
-    #     comp_text = articlelib.nlp(articlelib.text_preprocess_lem(text))
+    #     comp_text = artlib.nlp(artlib.text_preprocess_lem(text))
 
     #     # get list of related sites
-    #     sites = articlelib.gather_sites(title)
+    #     sites = artlib.gather_sites(title)
     #     for site in sites:
 
-    #         found_text = articlelib.gather_content(site)
+    #         found_text = artlib.gather_content(site)
 
     #         # if the response from getting content from url is not text, skip
     #         if (type(found_text) != str):
     #             continue
-    #         found_comp_text = articlelib.nlp(articlelib.text_preprocess_lem(found_text))
+    #         found_comp_text = artlib.nlp(artlib.text_preprocess_lem(found_text))
     #         sim_score = comp_text.similarity(found_comp_text)
 
     #         # if the similarity score is below this threshold, very unlikely that the articles are related
